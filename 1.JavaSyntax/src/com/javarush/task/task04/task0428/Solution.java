@@ -9,9 +9,9 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        int count=0;
+        int count = 0;
         for (int i = 0; i < 3; i++) {
-            if(scanner.nextInt()>0) count++;
+            if (scanner.nextInt() > 0) count++;
         }
         System.out.println(count);
     }
